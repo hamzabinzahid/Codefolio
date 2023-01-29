@@ -1,0 +1,143 @@
+/* Very Small Foldable Phone */
+@media (max-width: 298px) {
+  .mobile-nav-show {
+    display: none;
+  }
+
+  .header .logo img {
+    max-height: 24px;
+  }
+
+  .header-social-links a i {
+    font-size: 13px;
+  }
+
+  .filters ul {
+    font-size: 10px;
+    padding: 0;
+    justify-content: space-evenly !important;
+    width: 100% !important;
+  }
+
+  .footer .copyright {
+    font-size: 9px;
+  }
+}
+
+/* Normal Sized Phone */
+@media (min-width: 300px) {
+  .project-heading2 {
+    position: absolute;
+    height: 1%;
+    left: 26%;
+    right: 0;
+    background: var(--color-primary);
+    top: 62px;
+    z-index: -1;
+    width: 48%;
+    display: none;
+  }
+
+  .filters ul {
+    justify-content: space-evenly !important;
+    font-size: 12px;
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .mobile-nav-show {
+    display: none;
+  }
+
+  .header .logo img {
+    max-height: 34px;
+  }
+}
+
+/* Tablets and iPads */
+@media only screen and (min-width: 768px) {
+  .filters ul {
+    justify-content: space-around !important;
+    width: 80% !important;
+    font-size: 14px;
+  }
+
+  .mobile-nav-show {
+    display: none;
+  }
+}
+
+/* Normal Screened Laptops */
+@media only screen and (min-width: 1024px) {
+  .mobile-nav-show {
+    display: none;
+  }
+
+  .filters ul {
+    width: 50% !important;
+    justify-content: space-around !important;
+    font-size: 15px;
+  }
+}
+
+/* Large Screened Laptops */
+@media only screen and (min-width: 1440px) {
+  .filters ul {
+    display: flex;
+    list-style: none;
+    width: 50% !important;
+    justify-content: space-around;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+  }
+}
+
+/* Large Screens(LEDs) */
+@media only screen and (min-width: 2560px) {
+  .col-lg-6 {
+    width: 85%;
+  }
+
+  .mobile-nav-show {
+    display: none;
+  }
+
+  .filters ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+    font-size: 33px !important;
+  }
+
+  .hero h2 {
+    font-size: 76px;
+  }
+
+  .hero p {
+    font-size: 34px;
+  }
+
+  .random {
+    font-size: 66px;
+  }
+
+  .header .logo img {
+    max-height: 80px;
+  }
+
+  .header .header-social-links {
+    padding-right: 30px;
+  }
+
+  .header-social-links a i {
+    font-size: 40px;
+  }
+
+  .footer .copyright {
+    font-size: 30px;
+  }
+}
